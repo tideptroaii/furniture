@@ -1,0 +1,131 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Raleway&display=swap');
+*{
+	box-sizing: border-box
+}
+.container{
+	width: 80%;margin: 0 auto
+}
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+.raleway{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+body{
+	font-family:  "Raleway", sans-serif;font-size: 13px;color: #666666;margin: 0
+}
+header{
+	width: 100%;height: 50px;background-color: white;border-bottom: 1px solid white
+}
+.d-flex{
+	display: flex
+}
+.justify-center{
+	justify-content: center
+}
+.justify-between{
+	justify-content: space-between
+}
+.justify-around{
+	justify-content: space-around
+}
+text-center{
+	text-align: center
+}
+.img-100{
+	width: 100%;height: auto
+}
+.gach-chan{
+	border-bottom: 2px solid darkred
+}
+.menu ul{
+	margin: 0;padding: 0;list-style: none;display: flex
+}
+.menu{
+	padding-top: 14px
+}
+.menu ul li a{
+	padding: 10px 25px;text-decoration: none;color: #4A4A4A;border-radius: 20px
+}
+.menu ul li a:hover{
+	background-color:#D5D5D5;color: #6C0001
+}
+.text-xam{
+	color: #2C2C2C;text-align: center;font-size: 25px;font-weight: bold
+}
+.main{
+	width:100px;min-height: 500px
+}
+
+.vien{
+	border:1px solid darkred ;min-height: 100px;border-radius: 5px;position: relative;overflow: hidden
+}
+.vien:hover .icon{
+top: 40%
+}
+.icon{
+	width: 80%;height: 40px;position: absolute;left: 10%;top: -15%;display: flex;justify-content: space-around;transition: all 1s
+}
+.icon a{
+	width:40px;height: 40px;background-color: darkred;border-radius: 50%;display: flex;justify-content: center;align-items: center;text-decoration: none;color: white
+}
+.icon a:hover{
+	background-color: white;color: darkred
+}
+.text{
+	color:#676767;font-size: 16px;font-weight: bold
+}
+.text-do{
+	color:#9A0506
+}
+.ss{
+	padding-top: 10px
+}
+.ss a{
+	margin-right: 10px
+}
+.gach-chan{
+	color: #3F3F3F;
+}
+#feature{
+	width: 100%;min-height: 600px;background-image: url("../IMG/bg2.png");background-repeat: no-repeat;background-size: cover;background-position: bottom center
+}.pt-30{
+	padding-top: 30px
+}
+.vien-trang{
+	width: 100%;border: 1px solid white;text-align: center;padding: 20px
+}
+.vien-trang a{
+	color: #9A0506;text-decoration: none;cursor: pointer
+}
+.vien-trang a:hover{
+	color: white
+}
+.text-do-blog{
+	color: #9B0001;font-size: 13px
+}
+aside{
+	width: 50%;padding: 20px;min-height: 500px
+}
+.content{
+	width: 50%;padding: 20px;min-height: 500px
+}
+#contact{
+	width: 100%;min-height: 600px;background-image: url("../IMG/Banner2.png");background-repeat: no-repeat;background-size: cover;background-position: center
+}
+.shadow{
+	border: 1px solid gray;width: 100%;min-height: 300px;box-shadow: 5px 5px 5px gray;padding: 30px
+}
+.form-control{
+	padding: 8px;margin-bottom: 10px;width: 100%
+}
